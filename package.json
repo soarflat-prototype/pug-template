@@ -1,0 +1,14 @@
+{
+  "name": "pug-template",
+  "version": "1.0.0",
+  "author": "soarflat",
+  "license": "MIT",
+  "scripts": {
+    "pug": "pug src/pug/views -o public -P",
+    "watch:pug" : "pug src/pug/views -o public -P -w"
+  },
+  "devDependencies": {
+    "pug": "^2.0.0-rc.2",
+    "pug-cli": "^1.0.0-alpha6"
+  }
+}
